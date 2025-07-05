@@ -1,0 +1,37 @@
+/* navbar.css */
+.navbar {
+  width: 100vw;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2vw 1.2rem 2vw;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.navbar-left {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #440095;
+  font-family: 'Unkempt', cursive, 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+.navbar-right {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #440095;
+  letter-spacing: 1px;
+  padding-left: 0;
+  max-width: 40vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}

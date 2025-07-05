@@ -1,0 +1,92 @@
+/* Prob.css */
+.prob-section {
+  width: 100vw;
+  min-width: 100vw;
+  background: #fff;
+  background-image:
+    linear-gradient(to right, #ece9f6 1px, transparent 1px),
+    linear-gradient(to bottom, #ece9f6 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  font-family: 'Poppins', sans-serif;
+  padding: 4rem 0 0 0;
+  box-sizing: border-box;
+}
+
+.prob-context {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  background: #5907BC;
+  border-radius: 1.2rem;
+  padding: 2.2rem 2vw;
+  max-width: 900px;
+  margin: 0 auto 4rem auto;
+  line-height: 1.4;
+  box-shadow: 0 4px 24px rgba(89,7,188,0.08);
+}
+
+.prob-main-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding-bottom: 4rem;
+}
+
+.prob-illustration {
+  width: 400px;
+  max-width: 40vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.prob-content {
+  max-width: 600px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.prob-title {
+  color: #440095;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.prob-desc {
+  font-size: 1.15rem;
+  color: #222;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .prob-main-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1vw 2rem 1vw;
+  }
+  .prob-illustration {
+    width: 90vw;
+    max-width: 90vw;
+  }
+  .prob-content {
+    max-width: 95vw;
+  }
+  .prob-context {
+    font-size: 1.2rem;
+    padding: 0 1vw;
+  }
+}

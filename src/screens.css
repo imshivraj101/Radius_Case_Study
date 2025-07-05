@@ -1,0 +1,44 @@
+/* screens.css */
+.screens-section {
+  width: 100vw;
+  min-width: 100vw;
+  background: #fff;
+  background-image:
+    linear-gradient(to right, #ece9f6 1px, transparent 1px),
+    linear-gradient(to bottom, #ece9f6 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  font-family: 'Poppins', sans-serif;
+  padding: 4rem 0 0 0;
+  box-sizing: border-box;
+}
+
+.screens-title {
+  color: #440095;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.screens-img {
+  display: block;
+  max-width: 900px;
+  width: 95vw;
+  margin: 0 auto 2.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border: 1.5px solid #ece9f6;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .screens-title {
+    font-size: 1.5rem;
+  }
+  .screens-img {
+    width: 99vw;
+    max-width: 99vw;
+  }
+}

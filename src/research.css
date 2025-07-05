@@ -1,0 +1,57 @@
+/* research.css */
+.research-section {
+  width: 100vw;
+  min-width: 100vw;
+  background: #fff;
+  background-image:
+    linear-gradient(to right, #ece9f6 1px, transparent 1px),
+    linear-gradient(to bottom, #ece9f6 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  font-family: 'Poppins', sans-serif;
+  padding: 4rem 0 0 0;
+  box-sizing: border-box;
+}
+
+.research-img {
+  display: block;
+  max-width: 900px;
+  width: 95vw;
+  margin: 0 auto 3rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border: 1.5px solid #ece9f6;
+}
+
+.research-title {
+  color: #440095;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.research-desc {
+  font-size: 1.18rem;
+  color: #222;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 900px) {
+  .research-title {
+    font-size: 2rem;
+  }
+  .research-desc {
+    font-size: 1rem;
+    padding: 0 1vw;
+  }
+  .research-img {
+    width: 99vw;
+    max-width: 99vw;
+  }
+}

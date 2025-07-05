@@ -1,0 +1,58 @@
+/* conc.css */
+.conc-section {
+  width: 100vw;
+  min-width: 100vw;
+  background: #fff;
+  background-image:
+    linear-gradient(to right, #ece9f6 1px, transparent 1px),
+    linear-gradient(to bottom, #ece9f6 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-repeat: repeat;
+  font-family: 'Poppins', sans-serif;
+  padding: 4rem 0 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.conc-title {
+  color: #440095;
+  padding-top: 4rem;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.conc-desc {
+  font-size: 22px;
+  color: #222;
+  max-width: 1000px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.conc-thankyou {
+  padding-top:2rem ;
+  color: #440095;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 900px) {
+  .conc-title {
+    font-size: 1.3rem;
+  }
+  .conc-desc {
+    font-size: 1rem;
+    padding: 0 1vw;
+  }
+  .conc-thankyou {
+    font-size: 1.3rem;
+  }
+}
